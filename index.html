@@ -4,31 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
+    <title>HAYRAT - Your Website Title</title>
+    <meta name="description" content="Welcome to HAYRAT, your community platform for forums, courses, surveys, announcements, and more.">
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Add a favicon -->
 </head>
 <body>
     <header>
-        <nav>
-            <h1 class="site-title">HAYRAT</h1> <!-- Adding the site name as a header -->
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="forums.html">Forums</a></li>
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="surveys.html">Surveys</a></li>
-                <li><a href="announcements.html">Announcements</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+        <nav aria-label="Main Navigation">
+            <div class="nav-container">
+                <h2 class="site-title">HAYRAT</h2> <!-- Changed to <h2> to maintain a single <h1> structure -->
+                <button class="nav-toggle" aria-label="Toggle navigation menu">☰</button> <!-- Responsive menu toggle button -->
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="forums.html">Forums</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="surveys.html">Surveys</a></li>
+                    <li><a href="announcements.html">Announcements</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
     <main>
-        <h1>Welcome to Your Website</h1>
+        <h1>Welcome to Your Website</h1> <!-- Main heading of the page -->
         <p>This is your main content area.</p>
     </main>
 
     <footer>
-        <p>© 2024 Your Name. All rights reserved.</p>
+        <p>© 2024 Cevdet Karanfil. All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
