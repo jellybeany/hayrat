@@ -1,3 +1,11 @@
+.site-title {
+    font-size: 2.5em; /* Adjust size as needed */
+    text-align: center;
+    margin: 0.5em 0;
+    color: #333; /* Choose a color that fits your design */
+    font-weight: bold;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
